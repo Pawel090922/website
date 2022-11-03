@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Arial';
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 2;
+    color: rgb(34, 34, 34);
+    background-color: #fffab0;
+  }
+
+.list_menu {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+  
+.item_menu {
+    margin-left: 1%;
+}
+  
+.link_menu {
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+}
+.link_menu:hover {
+    color: rgb(255, 0, 0);
+
+}
+.bokser {
+      text-align: center;
+      font-size: 1.5rem;
+}
+.bokser_tekst {
+    text-shadow: 0 0 20px rgb(255, 0, 0);
+}
+ 
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.table_h {
+    font-size: 1.1rem;
+    color:burlywood;
+    background-color: dimgray;
+}
+
+.table,
+.table_td {
+    width: 30%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+}
+.table_b {
+    background-color: floralwhite;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-img {
+    border-radius: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.title {
+    text-shadow: 0 0 20px rgb(255, 0, 0);
+}
+.naw {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+}
+.naw:hover{
+    color: rgb(255, 0, 0);
+}
